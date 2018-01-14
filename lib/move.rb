@@ -7,7 +7,7 @@ end
 board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
 index = gets
 def move (board, index, player = "X")
-  board[index] = character
+  board[index] = player
 end
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
