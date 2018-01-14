@@ -6,6 +6,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go? Please answer 1-9"
 input = gets.strip
 input_to_index(input)
+index = input_to_index(input)
 move(board, index)
 
 # Code your CLI Here
