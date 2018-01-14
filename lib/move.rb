@@ -5,9 +5,8 @@ def input_to_index(user_input)
   puts "#{user_input}".to_i + 1
 end
 board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
-character = ["X", "O"]
 index = gets
-def move (board, index, character)
+def move (board, index, player = "X")
   board[index] = character
 end
 def display_board(board)
