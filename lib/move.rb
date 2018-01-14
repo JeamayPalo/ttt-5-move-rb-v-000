@@ -8,6 +8,7 @@ board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
 character = ["X", "O"]
 index = gets.strip
 def move (board, index, character)
+  board[index] = character
 end
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
