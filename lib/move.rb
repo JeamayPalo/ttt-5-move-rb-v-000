@@ -6,7 +6,7 @@ def input_to_index(user_input)
 end
 board = [" ", " ", " ", " "," ", " ", " ", " ", " "]
 character = ["X", "O"]
-index = gets.strip
+index = gets
 def move (board, index, character)
   board[index] = character
 end
